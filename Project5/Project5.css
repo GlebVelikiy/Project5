@@ -1,0 +1,44 @@
+* {
+    font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
+    transition:all .3s;
+    
+}
+input:focus {
+    outline-width: 0;
+}
+.header__inner {
+    background: #2D2D2D;
+}
+.main {
+    background: #2F1C48;
+    z-index: -2;
+}
+.header__line {
+    border-radius: 3px;
+    width: 25px;
+    height: 3px;
+    background: #ac6cff;
+}
+.header__text:hover>.header__line {
+    display: block;
+    transition: all .3s;
+}
+.section-4__block {
+    background: #2F1C48;
+}
+.section-4__block:hover>.section-4__pin {
+    background: #9333ea;
+}
+.section-4__block:hover {
+    cursor: pointer;
+}
+.section-5__inner {
+    background: #2B2038;
+}
+.section-6__card {
+    border-radius: 0 40px;
+}
+.footer {
+    background: #2B2038;
+}
